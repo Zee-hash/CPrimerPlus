@@ -5,12 +5,12 @@
 #define RATE3 0.20971 // >680kwh
 #define BREAK1 360.0
 #define BREAK2 680.0
-#define BASE1 (RATE1 * BREAK1) //用电360时的费用
+#define BASE1 (RATE1 * BREAK1)                      //用电360时的费用
 #define BASE2 (BASE1 + (RATE2 * (BREAK2 - BREAK1))) // 用电680时的费用
 
 int main(void)
 {
-    double kwh; // 用电的千瓦小时数
+    double kwh;  // 用电的千瓦小时数
     double bill; // 费用
 
     printf("Please enter the kwh used.\n");

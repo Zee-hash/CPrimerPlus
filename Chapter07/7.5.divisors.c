@@ -11,14 +11,14 @@ int main(void)
     printf("Enter q to quit.\n");
     while (scanf("%lu", &num) == 1)
     {
-        for (div = 2, isPrime = true; (div *div) <= num; div++)
+        for (div = 2, isPrime = true; (div * div) <= num; div++)
         {
-            if(num % div == 0)
+            if (num % div == 0)
             {
                 if (div * div != num)
                 {
                     printf("%lu is divisible by %lu and %lu\n",
-                        num, div, num / div);
+                           num, div, num / div);
                 }
                 else
                 {
