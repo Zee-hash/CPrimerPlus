@@ -45,7 +45,6 @@ void insertLinkList(LinkList list, int pos, void *data)
 // 遍历链表
 void foreachLinkList(LinkList list, void (*myPrint)(void *))
 {
-    printf("TEST....");
     if (list == NULL || myPrint == NULL)
     {
         return;
