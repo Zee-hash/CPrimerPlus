@@ -27,6 +27,6 @@ void foreachLinkList(LinkList list, void (*myPrint)(void *));
 void removeByIndex(LinkList list, int pos);
 
 // 销毁
-void destoryLinkList(LinkList list);
+void destroyLinkList(LinkList list);
 
 #endif

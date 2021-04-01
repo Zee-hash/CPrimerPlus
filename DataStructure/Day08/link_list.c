@@ -160,7 +160,7 @@ int sizeLinkList(LinkList list)
 }
 
 // 销毁链表
-void destoryLinkList(LinkList list)
+void destroyLinkList(LinkList list)
 {
     if (list == NULL)
     {

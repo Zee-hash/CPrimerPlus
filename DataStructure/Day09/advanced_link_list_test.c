@@ -43,7 +43,7 @@ void test01()
     printf("------------------------\n");
     foreachLinkList(mylist, printPerson);
 
-    destoryLinkList(mylist);
+    destroyLinkList(mylist);
 }
 
 int main(void)

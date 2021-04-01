@@ -63,7 +63,7 @@ void test01()
     foreachLinkList(mylist, printPerson);
 
     printf("The length of the LinkList: %d\n", sizeLinkList(mylist));
-    destoryLinkList(mylist);
+    destroyLinkList(mylist);
 }
 
 int main(void)
